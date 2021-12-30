@@ -2,7 +2,7 @@
 const Sequelize = require('sequelize')
 const {STRING, UUID, UUIDV4} = Sequelize
 const db = new Sequelize(
-    process.env.DATABASE_URL || "postgres://localhost/acme_talent_agency"
+    process.env.DATABASE_URL || "postgres://localhost/acme_talent_2"
   );
 const Client = db.define('client',{
     id:{
