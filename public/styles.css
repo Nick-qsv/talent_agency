@@ -1,3 +1,24 @@
 * {
     font-family: Arial;
 }
+
+
+
+.mainPage--header{
+    display: flex;
+    justify-content: center;
+    padding:1rem
+}
+
+.mainPage--container{
+    display: flex;
+    justify-content: space-around
+}
+
+/* .clientList--container{
+    
+}
+
+.skillList--Container{
+
+} */
